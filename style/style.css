@@ -1,0 +1,57 @@
+body {
+font-family: 'Courier New', Courier, monospace;    
+    background-image: url('../image/wallpaper.jpg');
+    background-size: cover;
+    background-position: 20%;
+    
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.body{
+    width: 90%;
+    height: 80%;
+    background-color: rgba(0, 40, 77, 0.726);
+    border-radius: 25px;
+}
+.profile{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.info{
+
+    height: 60%;
+    width: 100%;
+}
+.profile img{
+    width: 34%;
+    border-radius: 50%;
+}
+.profile h3 ,h5{
+    margin: 4px 0;
+    text-shadow: 1.5px 1.5px 8px #fff;   
+}
+.infoItem{
+    font-family:Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.infoItem div{
+    width: 60%;
+}
